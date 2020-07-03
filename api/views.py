@@ -4,12 +4,13 @@ from rest_framework.request import Request
 from rest_framework import settings
 from rest_framework import permissions
 # Create your views here.
-from rest_framework.throttling import UserRateThrottle
+from rest_framework.throttling import UserRateThrottle, AnonRateThrottle
 from rest_framework.views import APIView
 
 from api.authentications import MyAuth
 from api.models import User
 from api.permissions import MyPermission
+from api.throttle import SendMessageRate
 from utils.response import MyResponse
 
 
@@ -44,9 +45,11 @@ class TestPermissionAPIView(APIView):
 
 
 class UserLoginOrReadOnly(APIView):
+
     # permission_classes = [permissions.IsAuthenticatedOrReadOnly]
     permission_classes = [MyPermission]
     throttle_classes = [UserRateThrottle]
+    # throttle_classes = [AnonRateThrottle]
 
     def get(self, request, *args, **kwargs):
         return MyResponse(data_message="浏览页面打开成功")
@@ -59,7 +62,7 @@ class SendMessageAPIView(APIView):
     throttle_classes = [SendMessageRate]
 
     def get(self, request, *args, **kwargs):
-        return APIResponse("读操作访问成功")
+        return MyResponse("读操作访问成功")
 
     def post(self, request, *args, **kwargs):
-        return APIResponse("写操作")
+        return MyResponse("写操作")

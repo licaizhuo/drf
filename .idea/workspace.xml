@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39dc42f3-5bac-4274-ba14-6ee7f22f03d7" name="Default Changelist" comment="" />
+    <list default="true" id="39dc42f3-5bac-4274-ba14-6ee7f22f03d7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/throttle.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/throttle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +24,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1e83OB6xRwmijlHEiknLREOrNL1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -42,7 +50,7 @@
       <recent name="D:\Users\polkm\PycharmProjects\DRF\drf_study_2\api" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.views">
+  <component name="RunManager" selected="Django server.drf_study_2">
     <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="drf_study_2" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -105,7 +113,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593689357919</updated>
-      <workItem from="1593689360639" duration="16577000" />
+      <workItem from="1593689360639" duration="16895000" />
+      <workItem from="1593736504708" duration="2098000" />
     </task>
     <servers />
   </component>
@@ -113,25 +122,32 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1031" height="158" key="GridCell.Tab.0.bottom" timestamp="1593702608449">
+    <state width="1331" height="145" key="GridCell.Tab.0.bottom" timestamp="1593738232641">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1031" height="158" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593702608449" />
-    <state width="1031" height="158" key="GridCell.Tab.0.center" timestamp="1593702608449">
+    <state width="1331" height="145" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593738232641" />
+    <state width="1331" height="145" key="GridCell.Tab.0.center" timestamp="1593738232641">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1031" height="158" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593702608449" />
-    <state width="1031" height="158" key="GridCell.Tab.0.left" timestamp="1593702608449">
+    <state width="1331" height="145" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593738232641" />
+    <state width="1331" height="145" key="GridCell.Tab.0.left" timestamp="1593738232640">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1031" height="158" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593702608449" />
-    <state width="1031" height="158" key="GridCell.Tab.0.right" timestamp="1593702608449">
+    <state width="1331" height="145" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593738232640" />
+    <state width="1331" height="145" key="GridCell.Tab.0.right" timestamp="1593738232641">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1031" height="158" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593702608449" />
+    <state width="1331" height="145" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593738232641" />
+    <state x="367" y="280" key="com.intellij.ide.util.TipDialog" timestamp="1593736507769">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="367" y="280" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1593736507769" />
     <state x="834" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1593693891337">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="834" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1593693891337" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/drf_study_2$views.coverage" NAME="views Coverage Results" MODIFIED="1593738087065" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/python_virtualenv/new_python/Lib/site-packages/rest_framework" />
   </component>
 </project>
